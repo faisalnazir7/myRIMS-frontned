@@ -22,6 +22,7 @@ const Sidebar = ({ children }) => {
         <div className="top_section">
           <div className="logo" style={{ display: isOpen ? "block" : "none" }}>
             <img
+              className="logo-image"
               src={logoImg}
               size={35}
               style={{ cursor: "pointer" }}
